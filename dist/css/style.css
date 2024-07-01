@@ -10989,7 +10989,7 @@ textarea.form-control-lg {
 
 .our-service {
   padding: 150px 0;
-  background-color: #F9F9FB;
+  background-color: #1642B9;
 }
 .our-service::before {
   position: absolute;
@@ -11005,7 +11005,7 @@ textarea.form-control-lg {
   z-index: 0;
 }
 .our-service small, .our-service .small {
-  color: #7A8496;
+  color: #fff;
   padding-bottom: 30px;
   font-weight: 600;
 }
@@ -11013,7 +11013,7 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .our-service p {
-  color: #7A8496;
+  color: #fff;
   line-height: 30px;
   padding: 25px 0 35px;
 }
@@ -11758,3 +11758,67 @@ textarea.form-control {
     width: 100% !important;
   }
 }/*# sourceMappingURL=style.css.map */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+  
+body{
+  background: rgb(20, 20, 20);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: color-dodge;
+}
+
+video {
+  height: 200%;
+  min-width: 100%;
+}
+
+.main {
+  /* width: 100vw; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th1 {
+  font-family: 'Montserrat';
+  color: rgb(202, 114, 32);
+  font-size: 220px;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  width: auto;
+  max-height: 300px;
+  box-shadow: 0 0 0 10px #000, 0 0 0 12px rgba(255,255,255,.2);
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  object-fit: cover;
+}
