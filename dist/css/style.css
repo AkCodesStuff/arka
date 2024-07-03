@@ -3154,7 +3154,7 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+.ncollapse:not(.show) {
   display: none;
 }
 
