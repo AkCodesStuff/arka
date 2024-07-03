@@ -68,6 +68,9 @@
   }
   
   .ranking_number {
+    z-index: 2;
+    line-height: 30px;
+
     position: relative;
     /* color: #ffc64b; */
     color: #424c50;
