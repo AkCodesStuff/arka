@@ -167,3 +167,10 @@
   .client-section{
     min-height: 100vh;
   }
+
+  .h-screen{
+    min-height: 100vh;
+  }
+  .mb-8{
+    margin-bottom: 5.5rem;
+  }

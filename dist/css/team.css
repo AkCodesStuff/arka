@@ -181,6 +181,8 @@
   .teamflex{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem 0rem;
   }
 
   @media (max-width: 767.98px) {
