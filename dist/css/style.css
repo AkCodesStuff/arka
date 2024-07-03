@@ -11764,7 +11764,7 @@ textarea.form-control {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
   
 body{
-  background: rgb(20, 20, 20);
+  /* background: rgb(20, 20, 20); */
 }
 
 *{
