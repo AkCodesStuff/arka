@@ -18,7 +18,7 @@
   }
   
   .teamcard .teammail svg {
-    
+
     stroke: #1642B9;
     stroke-width: 3px;
   }
@@ -181,4 +181,13 @@
   .teamflex{
     display: flex;
     justify-content: space-around;
+  }
+
+  @media (max-width: 767.98px) {
+    .teamflex{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        
+    }
   }
