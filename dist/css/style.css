@@ -45,7 +45,7 @@
   --bs-secondary: #061434;
   --bs-info: #2776fc;
   --bs-light: #F9F9FB;
-  --bs-warning: #EE7B11;
+  --bs-warning: #FE3131;
   --bs-primary-rgb: 22, 66, 185;
   --bs-secondary-rgb: 6, 20, 52;
   --bs-info-rgb: 39, 118, 252;
@@ -2999,8 +2999,8 @@ textarea.form-control-lg {
 
 .btn-warning {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #EE7B11;
-  --bs-btn-border-color: #EE7B11;
+  --bs-btn-bg: #FE3131;
+  --bs-btn-border-color: #FE3131;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #ca690e;
   --bs-btn-hover-border-color: #be620e;
@@ -3010,8 +3010,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #b35c0d;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #EE7B11;
-  --bs-btn-disabled-border-color: #EE7B11;
+  --bs-btn-disabled-bg: #FE3131;
+  --bs-btn-disabled-border-color: #FE3131;
 }
 
 .btn-outline-primary {
@@ -3083,19 +3083,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-warning {
-  --bs-btn-color: #EE7B11;
-  --bs-btn-border-color: #EE7B11;
+  --bs-btn-color: #FE3131;
+  --bs-btn-border-color: #FE3131;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #EE7B11;
-  --bs-btn-hover-border-color: #EE7B11;
+  --bs-btn-hover-bg: #FE3131;
+  --bs-btn-hover-border-color: #FE3131;
   --bs-btn-focus-shadow-rgb: 238, 123, 17;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #EE7B11;
-  --bs-btn-active-border-color: #EE7B11;
+  --bs-btn-active-bg: #FE3131;
+  --bs-btn-active-border-color: #FE3131;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #EE7B11;
+  --bs-btn-disabled-color: #FE3131;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #EE7B11;
+  --bs-btn-disabled-border-color: #FE3131;
   --bs-gradient: none;
 }
 
@@ -6676,7 +6676,7 @@ textarea.form-control-lg {
 }
 
 .link-warning {
-  color: #EE7B11 !important;
+  color: #FE3131 !important;
 }
 .link-warning:hover, .link-warning:focus {
   color: #be620e !important;
@@ -11382,7 +11382,7 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 .footer ul li a:hover {
-  color: #EE7B11;
+  color: #FE3131;
 }
 .footer .subscribe .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
   border-top-right-radius: 15px;
