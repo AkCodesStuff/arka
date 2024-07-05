@@ -13,7 +13,20 @@
     <link rel="stylesheet" href="./dist/css/Client.css">
     <link rel="stylesheet" href="./dist/css/testimonials.css">
     <link rel="stylesheet" href="./dist/css/services.css">
+    <link rel="stylesheet" href="./dist/css/blog.css">
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {  <!-- Line 30 -->
+    $('.blogpost-module').hover(function() {
+        $(this).find('.blogdescription').stop().animate({
+            height: "toggle",
+            opacity: "toggle"
+        }, 300);
+    });
+});
+    </script>
 </head>
 <body>
     <!------------------------------>
@@ -1863,7 +1876,80 @@
     <!------------------------------>
     <!-- Team section End-------->
     <!------------------------------>
+<!-- --------- Blog Cards Section --------- -->
+ 
+<section class="pricing  position-relative overflow-hidden" style="background-color: #1642b9;">
+  <div class="container position-relative">
+      <div class="row justify-content-center">
+          <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+              <!-- <small class="fs-7 d-block">Pricing Plan</small> -->
+              <h2 class="fs-3 pricing-head text-white  mb-8 position-relative">Blogs</h2>
+          </div>
+      </div>
+      <div class="row plans mt-3">
+         
+          <div class="teamflex gap-[3.5rem] flex flex-col md:flex-row flex-wrap">
 
+            <div class="blogontainer w-[80vw] lg:w-[20vw]  md:w-[50vw] ">
+              <div class="blogcolumn">
+                <!-- Post-->
+                <div class="blogpost-module">
+                  <!-- Thumbnail-->
+                  <div class="blogthumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"></div>
+                  <!-- Post Content-->
+                  <div class="blogpost-content">
+                    <div class="blogcategory">CATEGORY</div>
+                    <h1 class="blogtitle">Title Goes Here</h1>
+                    <h2 class="blogsub_title">And Subtitle Goes Here.</h2>
+                    <p class="blogdescription" style="display: none; height: 100px; opacity: 1;">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                    <div class="blogpost-meta"><span class="blogtimestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="logcomments"><i class="fa fa-comments"></i></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogontainer w-[80vw] lg:w-[20vw]  md:w-[50vw]">
+              <div class="blogcolumn">
+                <!-- Post-->
+                <div class="blogpost-module">
+                  <!-- Thumbnail-->
+                  <div class="blogthumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"></div>
+                  <!-- Post Content-->
+                  <div class="blogpost-content">
+                    <div class="blogcategory">CATEGORY</div>
+                    <h1 class="blogtitle">Title Goes Here</h1>
+                    <h2 class="blogsub_title">And Subtitle Goes Here.</h2>
+                    <p class="blogdescription" style="display: none; height: 100px; opacity: 1;">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                    <div class="blogpost-meta"><span class="blogtimestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="logcomments"><i class="fa fa-comments"></i></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blogontainer w-[80vw] lg:w-[20vw]  md:w-[50vw]">
+              <div class="blogcolumn">
+                <!-- Post-->
+                <div class="blogpost-module">
+                  <!-- Thumbnail-->
+                  <div class="blogthumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"></div>
+                  <!-- Post Content-->
+                  <div class="blogpost-content">
+                    <div class="blogcategory">CATEGORY</div>
+                    <h1 class="blogtitle">Title Goes Here</h1>
+                    <h2 class="blogsub_title">And Subtitle Goes Here.</h2>
+                    <p class="blogdescription" style="display: none; height: 100px; opacity: 1;">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                    <div class="blogpost-meta"><span class="blogtimestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="logcomments"><i class="fa fa-comments"></i></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+      </div>
+
+
+      </div>
+      </div>
+  </div>
+</section>
+<!-- Blog CArds Section End -->
     <!------------------------------>
     <!------ FAQ section Start------>
     <!------------------------------>
@@ -2111,6 +2197,15 @@
     <script src="./dist/js/bootstrap.min.js"></script>
     <script src="./assets/libs/OwlCarousel-2/dist/owl.carousel.min.js"></script>
     <script src="./dist/js/custom.js"></script>
-
+    <script>
+      $(window).load(function() {
+  $('.blogpost-module').hover(function() {
+    $(this).find('.blogdescription').stop().animate({
+      height: "toggle",
+      opacity: "toggle"
+    }, 300);
+  });
+});
+    </script>
 </body>
 </html>
