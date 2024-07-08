@@ -33,17 +33,17 @@
 }
 
 .text-copy:nth-child(2){
-	stroke: #840037;
+	stroke: #FE3131;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #BD0034;
+	stroke: #da2828;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #BD0034;
+	stroke: #d41b1b;
 	animation-delay: -4s;
 }
 
@@ -55,3 +55,53 @@
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.th1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+
+
+  
+.seven h1 {
+text-align: center;
+    font-size:30px; font-weight:300; color:#fff; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.seven h1:after,.seven h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
