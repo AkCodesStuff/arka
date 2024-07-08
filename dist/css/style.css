@@ -3155,7 +3155,7 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.ncollapse:not(.show) {
+.collapse:not(.show) {
   display: none;
 }
 
@@ -11848,4 +11848,13 @@ video {
 
 .shidden{
   display: none;
+}
+
+
+
+
+
+
+.collapse {
+  visibility: visible !important;
 }
