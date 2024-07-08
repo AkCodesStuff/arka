@@ -11858,3 +11858,15 @@ video {
 .collapse {
   visibility: visible !important;
 }
+
+
+.ncollapse{
+  display: none;
+}
+
+
+@media (max-width: 687px) {
+  .calendly-inline-widget{
+    min-width: 70vw !important;
+  }
+}
