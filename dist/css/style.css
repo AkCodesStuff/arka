@@ -3144,6 +3144,7 @@ textarea.form-control-lg {
 
 .fade {
   transition: opacity 0.15s linear;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .fade {
@@ -11829,4 +11830,22 @@ video {
   .main {
     display: none;
   }
+}
+
+
+
+/* Initial state */
+#services-hidden {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.35s ease;
+}
+
+/* Visible state */
+#services-hidden.shown {
+  height: auto;
+}
+
+.shidden{
+  display: none;
 }
