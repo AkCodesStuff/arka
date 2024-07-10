@@ -4140,6 +4140,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  
   --bs-card-spacer-y: 55px;
   --bs-card-spacer-x: 60px;
   --bs-card-title-spacer-y: 0.5rem;
