@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 .second{
     display: flex;
@@ -8,7 +9,7 @@
    
     align-items:center;
     max-width:90vw;
-   
+    position: relative;
     margin:auto;
     min-width: 70vw;
     gap:10vw;
@@ -19,7 +20,7 @@
 }
 
 .text {
-    font-family:"Inter", sans-serif;
+    font-family:"Rajdhani", sans-serif;
     height: 90%;
     display: flex;
     gap: 23px;
@@ -28,12 +29,12 @@
     flex-direction: column;
     color: rgba(0, 0, 0, 0.878);
     position: relative;
-    padding-top: 150px;
+    padding-top: 10px;
     
     
 }
 .text> :nth-child(1){
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
     text-align: left;
 }
@@ -47,30 +48,62 @@
     font-weight:400;
     text-align: center;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:800px) {
     .second{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-top: 150px;
     }
     .oppo{
         display:flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    .second .text{
+        padding-top: 0;
     }
     .text> :nth-child(1){
         font-size: 3rem;
         font-weight: 900;
         text-align: center;
-        width:136%
+        width:80vw;
     }
     .text> :nth-child(2){
         font-size: 1.5rem;
         font-weight:400;
-        text-align: center;
-        width:122%
+        text-align: left;
+        width:80%
+    }
+    .second button{
+        background-color: white;
+      
+    }
+    .second .grow{
+        width:100%;
+        
     }
 
 
 }
 .second .button{
     width:200px;
+}
+.grow {
+    position: absolute;
+    top: 0.5em;
+    right:0;
+    font-size: 12rem;
+    opacity: 0.3;
+    color: red;
+    font-family: "Montserrat";
+    font-size: 12vw;
+    font-weight: 600;
+    line-height: 365.7px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    z-index:-4;
+    
+}
+.two{
+    position: absolute;
+   
 }
