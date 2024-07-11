@@ -20,7 +20,7 @@
 }
 
 .text {
-    font-family:"Rajdhani", sans-serif;
+    font-family:"Inter", sans-serif;
     height: 90%;
     display: flex;
     gap: 23px;
@@ -73,10 +73,7 @@
         text-align: left;
         width:80%
     }
-    .second button{
-        background-color: white;
-      
-    }
+    
     .second .grow{
         width:100%;
         
