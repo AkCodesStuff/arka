@@ -14,6 +14,9 @@
     gap:10vw;
     padding-top: 15vh;
 }
+.second .text{
+    width:666px;
+}
 
 .text {
     font-family:"Inter", sans-serif;
@@ -25,19 +28,19 @@
     flex-direction: column;
     color: rgba(0, 0, 0, 0.878);
     position: relative;
-    padding:20px 32px;
+    padding-top: 150px;
     
     
 }
 .text> :nth-child(1){
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
 }
 .text> :nth-child(2){
     font-size: 1.5rem;
     font-weight:400;
-    text-align: center;
+    text-align: left;
 }
 .text> :nth-child(3){
     font-size: 1.2rem;
@@ -52,6 +55,18 @@
     .oppo{
         display:flex;
         flex-direction: column-reverse;
+    }
+    .text> :nth-child(1){
+        font-size: 3rem;
+        font-weight: 900;
+        text-align: center;
+        width:136%
+    }
+    .text> :nth-child(2){
+        font-size: 1.5rem;
+        font-weight:400;
+        text-align: center;
+        width:122%
     }
 
 
